@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>JavaScript Star Wars Quiz</title>
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css">       
+        <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+   <h1>Star Wars</h1>
+
+    <p>Use the alphabet below to guess the word, if you get stuck don't forget to use a Hint!. </p>
+</div>
+<div class="wrapper">
+        <div id="buttons"></div>
+    <p id="catagoryName"></p>
+    <div id="hold">
+    </div>
+    
+    <!-- Attempted to setup the sound on correct click but it wasn't working -->
+    <!-- <audio id="myAudio">
+        <source src="./audio/ding-sound-effect_2.mp3" >
+    </audio> -->
+
+    <p id="mylives"></p>
+    <p id="clue">Clue </p>  
+     <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+    <div class="container">
+      <button id="hint">Hint</button>
+      <button id="reset">Play again</button>
+    </div>
+</div>
+    <script src="assets/JavaScript/game.js"></script>
+</body>
+</html>
